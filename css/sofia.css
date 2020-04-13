@@ -28,6 +28,7 @@ body, html {
   width: 100px;
   height: 50px;
   background: #ffffff;
+  opacity: 0.5;
 }
 
 .header h1 {
@@ -69,6 +70,7 @@ h2 {
 /* Content */
 .content {
   background-color: #ffffff;
+  opacity: 0.5;
   padding: 10px;
 }
 

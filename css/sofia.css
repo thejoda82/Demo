@@ -10,7 +10,7 @@ body, html {
 
 .bg {
   /* The image used */
-  background-image: url("img_girl.jpg");
+  background-image: url("https://img.uefa.com/imgml/uefacom/ucl/fallback.jpg");
 
   /* Full height */
   height: 100%; 

@@ -21,6 +21,15 @@ body, html {
 .main {
   max-width: 1000px;
   margin: auto;
+  background-image: url("https://img.uefa.com/imgml/uefacom/ucl/fallback.jpg");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .header img {

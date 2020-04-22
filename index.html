@@ -2,6 +2,8 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://footballia.net/assets/jwplayer-41e40e059079d46ac7cbdb9768f8e3a5.js"></script>
+<script src="https://footballia.net/assets/jwplayer.html5-2ef16d5f19f7fb83311458d10639139c.js"></script>  
 <style>
 *{
 margin:0;
@@ -21,12 +23,48 @@ body, html {
   background-size: cover;
   background-attachment:fixed;
 }
+  div.main{
+  color: white;
+  height:relative;
+  max-width: 1500px;
+  background:transparent url(https://resources.blogblog.com/blogblog/data/1kt/travel/bg_black_70.png)repeat scroll top left;
+  background-image: url(https://resources.blogblog.com/blogblog/data/1kt/travel/bg_black_70.png);
+  background-color:transparent;
+  background-position: left -0;
+  background-position-x: left;
+  background-position-y: 0px
+  background-size: initial;
+  background-repeat-x: repeat;
+  background-repeat-y: repeat;
+  background-attachment: scroll;
+  background-origin: initial;
+  background-clip: initial;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  margin-top:20px;
+  margin-right:20px;
+  margin-bottom: 40px;
+  margin-left:20px;
+
+}
+
 </head>
 <body>
-<iframe src='//app.viloud.tv/player/embed/channel/252f53d9f48785e501436bfff14c1c0d?autoplay=1&volume=1&controls=1&title=0&share=0&open_playlist=0&random=0' width='640' height='360' frameborder='0' allow='autoplay' allowfullscreen></iframe><p><a href='https://viloud.tv/channel/252f53d9f48785e501436bfff14c1c0d'>SOLO FUTBOL</a> on <a href='https://viloud.tv'>Viloud</a></p>
-
-
-
+<div class="main">
+  <script type="text/javascript">
+   /* Video player */
+  jwplayer("jwplayer").setup({
+    height: "100%",
+    width: "100%",
+    image: "https://footballia.net/es/partidos-completos/cd-numancia-atletico-de-madrid/preview_image",
+    flashplayer: "https://footballia.net/assets/flash-8d6611747fde0f34fa7bc380b73e05cc.swf",
+    file: "https://videos.footballia.net/uploads/video/source_file/25277/2019_Numancia_-_At._Madrid.mp4",
+    mediaid: 25277
+  });
+</script>
+</div>
 
 
 </body>

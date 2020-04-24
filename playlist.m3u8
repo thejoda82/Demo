@@ -7,3 +7,5 @@ https://raw.githubusercontent.com/thejoda82/Demo/master/golazo.m3u8
 https://raw.githubusercontent.com/thejoda82/Demo/master/golazo.m3u8
 #EXT-X-STREAM-INF:BANDWIDTH=640000,RESOLUTION=640x360,CODECS="avc1.42e00a,mp4a.40.2"
 https://raw.githubusercontent.com/thejoda82/Demo/master/golazo.m3u8
+#EXT-X-STREAM-INF:BANDWIDTH=2800000,RESOLUTION=1280x720
+https://raw.githubusercontent.com/thejoda82/Demo/master/golazo.m3u8
